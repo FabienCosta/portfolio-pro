@@ -23,7 +23,7 @@ export default function Header() {
 
         {/* Titre centré */}
         <h1 className="absolute left-1/2 transform -translate-x-1/2 text-2xl lg:text-3xl font-bold z-10">
-          Mon SITE
+          Mon SITE superrrrrr
         </h1>
 
         {/* Nav desktop */}
