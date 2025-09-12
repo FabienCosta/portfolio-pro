@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 export default function About({
-  name = "Nom du client",
-  bio = "Texte de présentation...",
-  objectives = "Objectifs du client...",
+  name = "Fabien",
+  bio = "Développeur front-end spécialisé en React & Next.js, j’accompagne entreprises et indépendants dans la création de sites modernes, rapides et adaptés à leurs besoins.",
+  objectives = "Vous souhaitez un site web moderne, rapide et adapté à vos besoins : qu’il s’agisse de présenter vos services, mettre en valeur vos projets ou attirer de nouveaux clients. Vous recherchez une solution simple, efficace et professionnelle.",
   image = "/images/profile-pic-Fabien.png",
 }) {
   return (

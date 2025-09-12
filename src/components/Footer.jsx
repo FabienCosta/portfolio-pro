@@ -1,16 +1,23 @@
 "use client";
 import { Mail } from "lucide-react";
-import { Linkedin, Github, Instagram } from "lucide-react";
+import { Linkedin, Github } from "lucide-react";
 
 export default function Footer({
-  contactEmail = "contact@monprojet.com",
-  phone = "+33 1 23 45 67 89",
+  contactEmail = "fabiencosta.dev@gmail.com",
+  phone = "+33 7 77 83 47 59",
   socialLinks = [
-    { icon: <Linkedin className="w-5 h-5" />, href: "#", label: "LinkedIn" },
-    { icon: <Github className="w-5 h-5" />, href: "#", label: "GitHub" },
-    { icon: <Instagram className="w-5 h-5" />, href: "#", label: "Instagram" },
+    {
+      icon: <Linkedin className="w-5 h-5" />,
+      href: "https://www.linkedin.com/in/fabien-costa-/",
+      label: "LinkedIn",
+    },
+    {
+      icon: <Github className="w-5 h-5" />,
+      href: "https://github.com/FabienCosta",
+      label: "GitHub",
+    },
   ],
-  copyrightText = "&copy; 2025 MonProjet. Tous droits réservés.",
+  copyrightText = "&copy; 2025 Portfolio. Tous droits réservés.",
 }) {
   return (
     <footer className="bg-gray-100 py-10">
@@ -34,6 +41,8 @@ export default function Footer({
               <a
                 key={index}
                 href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-blue-500"
                 aria-label={social.label}
               >
