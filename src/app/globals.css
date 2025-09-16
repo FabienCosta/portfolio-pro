@@ -8,3 +8,23 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 80px; 
 }
+
+/* fonts globales */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins);
+  font-weight: 400; /* ou 600/700 selon ce que tu veux */
+}
+
+/* Paragraphes */
+p {
+  font-family: var(--font-inter);
+  margin-bottom: 1rem;
+}
+a {
+  font-family: var(--font-inter);
+  margin-bottom: 1rem;
+}
+
+body {
+  font-family: var(--font-roboto-mono);
+}

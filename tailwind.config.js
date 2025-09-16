@@ -4,7 +4,6 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: "class", // active le dark mode basé sur une classe
   theme: {
     extend: {
       colors: {
@@ -19,6 +18,10 @@ module.exports = {
           700: "#374151",
           900: "#111827",
         },
+      },
+      fontFamily: {
+        title: ["var(--font-poppins)", "sans-serif"], // Titres
+        body: ["var(--font-inter)", "sans-serif"], // Texte
       },
     },
   },
