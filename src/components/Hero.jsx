@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Hero({
   name = "Fabien Costa",
-  title = "Développeur frontend spécialisé en React.js et Next.js",
+  title = "Développeur frontend spécialisé en React.js et Next.js - Création de sites web modernes et performants",
   buttonText = "Découvrir mes projets",
   buttonTargetId = "projects",
   imageSrc = "/images/profile-pic-Fabien.png",

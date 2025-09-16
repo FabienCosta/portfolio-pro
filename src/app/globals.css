@@ -28,3 +28,8 @@ a {
 body {
   font-family: var(--font-roboto-mono);
 }
+
+
+.lolo {
+  background-color: red;
+}
