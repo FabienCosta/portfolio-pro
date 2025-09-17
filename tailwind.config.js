@@ -24,6 +24,15 @@ module.exports = {
         body: ["var(--font-inter)", "sans-serif"], // Texte
       },
     },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "1rem", // 16px sur mobile
+        sm: "1.5rem", // 24px dès 640px
+        lg: "2rem", // 32px dès 1024px
+        xl: "4rem", // 64px dès 1280px
+      },
+    },
   },
   plugins: [],
 };

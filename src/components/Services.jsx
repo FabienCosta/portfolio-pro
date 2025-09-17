@@ -32,7 +32,7 @@ export default function Services({ services = null }) {
   return (
     <section id="services" className="py-20 bg-gray-50 text-center">
       <h2 className="text-3xl font-bold mb-12">Mes Services</h2>
-      <div className="max-w-6xl mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-4 px-6">
+      <div className="max-w-6xl mx-auto grid gap-8 sm:grid-cols-2 lg:grid-cols-4 px-6">
         {displayedServices.map((service, index) => (
           <div
             key={index}
